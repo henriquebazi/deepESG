@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90vw;
+  height: 90vh;
+  margin: auto auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.form-container {
+  width: 600px;
+  height: 400px;
+
+  background-color: #f3f3f3;
+  border: green solid 2px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  padding-bottom: 10px;
+  font-size: large;
+}
